@@ -67,6 +67,10 @@ main {
   text-align: center;
 }
 
+.about_qualities ul {
+  padding-left: 0px;
+}
+
 .about_qualities li {
   list-style: none;
   display: inline-block;
@@ -194,6 +198,87 @@ main {
   text-decoration: none;
 }
 
+
+/* RESPONSIVE WEBSITE*/
+
+@media only screen and (max-width:1080px) {
+  .logo_title {
+  width: 50%;
+}
+
+}
+
+@media only screen and (max-width:768px) {
+  h1.logo_title {
+    padding-left: 0px;
+  }
+  
+  .logo_title {
+  width: 100%;
+    float: none;
+  text-align: center;
+}
+  
+  .main-menu {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .main-menu-nav ul li {
+  width: 100%;
+  display: block;
+  
+  background: #E96F00;
+  border: 2px solid white;
+  }
+  
+  
+  
+  .main-menu-nav ul, 
+  nav.main-menu-nav {
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .main-menu_title a {
+    color: white;
+  }
+  
+  .about_qualities li {
+    display: block;
+    padding: 10px;
+    
+    
+  }
+  
+  .about_icon{
+  max-width:60px;
+  width: 100%;
+  padding: 0px;
+  
+}
+  .about_qualities ul {
+    padding-left: 0px;
+    
+  }
+  
+  .about_text {
+    padding: 0px 10px;
+  }
+  
+  .brands_title ul {
+    padding-left: 0px;
+  }
+  
+  .other_title {
+   flex-direction: column;
+  }
+  
+  .other_wrapper h3 {
+    margin: 10px;
+  }
+
+}
 
 
 
