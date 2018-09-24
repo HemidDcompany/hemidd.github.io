@@ -124,6 +124,7 @@ main {
 }
 
 .logo-brand  {
+  color: darkgrey;
   
   list-style: none;
   display: inline-block;
@@ -131,6 +132,12 @@ main {
   text-align: center;
 }
 
+.logo-brand h1 {
+  font-size: 26px;
+  color: black;
+  text-transform: uppercase;
+  font-style: italic;
+}
 .logo-brand img,
 .logo-brand h1{
   max-width: 100px;
