@@ -205,6 +205,38 @@ main {
   text-decoration: none;
 }
 
+.lang-option-wrapper {
+  display: inline-block;
+  margin: 5px 10px;
+  text-align: right;
+  float: right;
+  
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.lang-option-wrapper a {
+  color:black;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.lang-option-wrapper div {
+  display: inline-block;
+  padding: 5px;
+}
+
+.lang-option-wrapper a:hover{
+  color: #E96F00;
+  text-decoration: underline;
+  
+}
+.lang-option-wrapper a:active{
+  color: #E96F00;
+  text-decoration: underline;
+  
+}
+
 
 
 
